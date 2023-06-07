@@ -1,0 +1,18 @@
+package define
+
+const RESULT_CODE_SUCC = 0
+
+// common [1, 999]
+const (
+	RESULT_CODE_CHECK_PARAMS_FAILED = 1
+	RESULT_CODE_TOKEN_EXPIRED       = 2
+	RESULT_CODE_VERIFY_TOKEN_FAILED = 3
+	RESULT_CODE_SERVER_INNER_ERROR  = 4
+)
+
+// user [1000, 1999]
+const (
+	RESULT_CODE_USER_NOT_EXIST = 1000
+)
+
+// friend [2000, 2999]
